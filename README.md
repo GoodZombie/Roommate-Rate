@@ -7,4 +7,5 @@ Product: RateMyRoomie application
 - use our app to destroy your roommates hopes and dreams of ever finding another roommate! 🎆 🎆
 
 Devs wiki: https://github.com/GoodZombie/Roommate-Rate/wiki/Devs
+Product Proposal: https://github.com/GoodZombie/Roommate-Rate/wiki/Product-Proposal
 ....
