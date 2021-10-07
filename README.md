@@ -9,3 +9,6 @@ Product: RateMyRoomie application
 Devs wiki: https://github.com/GoodZombie/Roommate-Rate/wiki/Devs <br>
 Product Proposal: https://github.com/GoodZombie/Roommate-Rate/wiki/Product-Proposal
 ....
+
+Username is whatever you want <br>
+Password = secret
