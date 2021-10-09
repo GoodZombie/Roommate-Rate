@@ -8,9 +8,9 @@ Product: RateMyRoomie application
 
 Devs wiki: https://github.com/GoodZombie/Roommate-Rate/wiki/Devs <br>
 Product Proposal: https://github.com/GoodZombie/Roommate-Rate/wiki/Product-Proposal
-<br><br>
+<br>
 ***
-<br><br>
+<br>
 https://roommaterate.herokuapp.com/
 Username is whatever you want <br>
 Password = secret
