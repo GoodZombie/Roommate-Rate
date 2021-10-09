@@ -6,7 +6,7 @@ $pwd = $_POST['pwd'];
 
 if ($pwd == "secret") {
     $_SESSION['user'] = $user;
-    header("Location: db.php");
+    header("Location: dbconnection.php");
 } else {
     header("Location: login.php");
 }

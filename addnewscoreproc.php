@@ -1,10 +1,10 @@
 <?php
 
 session_start();
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "college";
+$servername = "us-cdbr-east-04.cleardb.com";
+$username = "b0dcb3da6bfea5";
+$password = "e7b37955";
+$dbname = "heroku_8f1ffd4429f5f04";
 $_SESSION["id"] = $_GET['id'];
 $id = $_GET['id'];
 
