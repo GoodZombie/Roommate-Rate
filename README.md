@@ -11,6 +11,6 @@ Product Proposal: https://github.com/GoodZombie/Roommate-Rate/wiki/Product-Propo
 <br>
 ***
 <br>
-https://roommaterate.herokuapp.com/
+https://roommaterate.herokuapp.com/ <br>
 Username is whatever you want <br>
 Password = secret
