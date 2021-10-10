@@ -23,8 +23,7 @@
         if ($result->num_rows > 0) {
             // output data of each row
             while ($row = $result->fetch_assoc()) {
-                $id = $result->num_rows;
-                #$row['id'];
+                $id = $row['id'];
                 $url = "delrow.php?id=$id";
                 $urla = "addnewscore.php?id=$id";
                 $link = "<a href ='$url'>Delete</a>";

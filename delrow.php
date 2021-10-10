@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 // sql to delete a record
-$sql = "DELETE FROM students WHERE id=$id";
+$sql = "DELETE FROM students WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     header("Location: db.php");

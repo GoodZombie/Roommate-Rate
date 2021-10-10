@@ -9,6 +9,8 @@
         $username = "b0dcb3da6bfea5";
         $password = "e7b37955";
         $dbname = "heroku_8f1ffd4429f5f04";
+        #var_dump($_GET);
+        $id = $_GET['id'];
         echo 'Welcome  ' . $_SESSION['user'] . "<br>";
 // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -34,7 +36,8 @@
             <input type="number" id="score4" name="score4"><br>
             <label for="score5">Do you prefer to share groceries(1) or Hands off(5)</label><br>
             <input type="number" id="score5" name="score5"><br>
-            <button formaction="addnewscoreproc.php?id=$id" >Add New Score</button>
+            <input type="hidden" id="id" name="id" value='<?php echo $id; ?>'>
+            <button formaction="addnewscoreproc.php">Add New Score</button>
 
         </form>
     </body>

@@ -5,8 +5,14 @@ $servername = "us-cdbr-east-04.cleardb.com";
 $username = "b0dcb3da6bfea5";
 $password = "e7b37955";
 $dbname = "heroku_8f1ffd4429f5f04";
-$_SESSION["id"] = $_GET['id'];
-$id = $_GET['id'];
+$_SESSION["id"] = $_POST['id'];
+$id = $_POST['id'];
+var_dump($_POST);
+$nscore1 = $_POST["score1"];
+$nscore2 = $_POST["score2"];
+$nscore3 = $_POST["score3"];
+$nscore4 = $_POST["score4"];
+$nscore5 = $_POST["score5"];
 
 #var_dump($_POST);
 // Create connection
@@ -32,11 +38,6 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
-$nscore1 = $_POST["score1"];
-$nscore2 = $_POST["score2"];
-$nscore3 = $_POST["score3"];
-$nscore4 = $_POST["score4"];
-$nscore5 = $_POST["score5"];
 
 $_SESSION["score1"] = ($score1 + $nscore1) / 2;
 $_SESSION["score2"] = ($score2 + $nscore2) / 2;
@@ -44,7 +45,7 @@ $_SESSION["score3"] = ($score3 + $nscore3) / 2;
 $_SESSION["score4"] = ($score4 + $nscore4) / 2;
 $_SESSION["score5"] = ($score5 + $nscore5) / 2;
 var_dump($_SESSION);
-#header("Location: scoreupdate.php");
+header("Location: scoreupdate.php");
 $conn->close();
 ?>
 
