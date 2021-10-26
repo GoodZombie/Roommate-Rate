@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Roommate rate</title>
     </head>
     <body>
         <form action="authenticate.php" method="POST">
