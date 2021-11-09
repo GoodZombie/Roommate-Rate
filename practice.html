@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+        <style>
+            
+           .gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(45deg, #46166B, #DB9F11);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(45deg, #46166B, #DB9F11);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+</style>
+    </head>
+    <body>
+        <section class="h-100 gradient-form">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-xl-10">
+        <div class="card rounded-3 text-black">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="card-body p-md-5 mx-md-4">
+
+                <div class="text-center">
+                  <img src="data:image/png;base64,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" style="width: 185px;" alt="logo">
+                  <h4 class="mt-1 mb-5 pb-1">CheckMate</h4>
+                </div>
+
+                <form>
+                  <p>Please login to your account</p>
+
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form2Example11" class="form-control" placeholder="Phone number or email address"/>
+                    <label class="form-label" for="form2Example11">Username</label>
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <input type="password" id="form2Example22" class="form-control" />
+                    <label class="form-label" for="form2Example22">Password</label>
+                  </div>
+
+                  <div class="text-center pt-1 mb-5 pb-1">
+                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log in</button>
+                    <a class="text-muted" href="#!">Forgot password?</a>
+                  </div>
+
+                  <div class="d-flex align-items-center justify-content-center pb-4">
+                    <p class="mb-0 me-2">Don't have an account?</p>
+                    <button type="button" class="btn btn-outline-danger">Create new</button>
+                  </div>
+
+                </form>
+
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+              <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                <h4 class="mb-4">The place to find your roommate </h4>
+                <p class="small mb-0">Welcome to CheckMate, designed by Gavin, Zach and Trevor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        
+    </body>
+</html>
