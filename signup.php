@@ -182,21 +182,6 @@ if($num>0)
 
                 </div>
               </div>
-
-              <div class="row">
-                <div class="col-12">
-
-                  <select class="select form-control-lg">
-                    <option value="1" disabled>Choose option</option>
-                    <option value="2">Subject 1</option>
-                    <option value="3">Subject 2</option>
-                    <option value="4">Subject 3</option>
-                  </select>
-                  <label class="form-label select-label">Choose option</label>
-
-                </div>
-              </div>
-
               <div class="mt-4 pt-2">
                 <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
               </div>
