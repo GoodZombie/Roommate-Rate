@@ -1,4 +1,10 @@
 <html>
+    <style>
+        body {
+            font-size: 1.5em;
+            background: linear-gradient(180deg, rgba(70,22,107,1) 0%, rgba(252,176,69,1) 72%, rgba(95,96,98,1) 100%);
+        }
+    </style>
     <head>
         <meta charset="UTF-8">
         <title></title>
